@@ -1,5 +1,4 @@
-# Paraíba Monthly Precipitation Gridded Data (PB-MPGRID) ☔  
-**(PREC_MENSAL_PB – Precipitação Mensal Espacializada da Paraíba)**  
+# PB-MPGRID | Paraíba Monthly Precipitation Gridded Data ☔  
 
 Repositório destinado à organização, análise e disponibilização do **PB-MPGRID**, um conjunto de dados **gridded de precipitação mensal** para o estado da **Paraíba (PB-Brasil)**, desenvolvido a partir da rede de postos pluviométricos da **AESA-PB (Agência Executiva de Gestão das Águas da Paraíba)**.  
 
