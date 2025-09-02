@@ -1,35 +1,61 @@
-# PREC_MENSAL_PB ☔
+# Paraíba Monthly Precipitation Gridded Data (PB-MPGRID) ☔  
+**(PREC_MENSAL_PB – Precipitação Mensal Espacializada da Paraíba)**  
 
-Repositório destinado à organização e análise da **precipitação mensal** observada em postos pluviométricos da **AESA-PB (Agência Executiva de Gestão das Águas da Paraíba)**, com suporte ao processamento e visualização no **Google Earth Engine (GEE)** e em **Python (via geemap)**.
+Repositório destinado à organização, análise e disponibilização do **PB-MPGRID**, um conjunto de dados **gridded de precipitação mensal** para o estado da **Paraíba (PB-Brasil)**, desenvolvido a partir da rede de postos pluviométricos da **AESA-PB (Agência Executiva de Gestão das Águas da Paraíba)**.  
+
+Os dados são processados por interpolação espacial (**IDW**) em resolução de **500 m**, cobrindo o período de **1994 a 2024**, e disponibilizados para uso colaborativo no **Google Earth Engine (GEE)**, além de suporte a análises em **Python (via geemap, geopandas, matplotlib)**.  
 
 Este projeto está em desenvolvimento 🚧  
-Mais conteúdos serão adicionados em breve.
+Novos conteúdos serão adicionados em breve.  
 
 ---
 
 ## 📌 Objetivo
 
-Explorar e facilitar o uso dos dados históricos de precipitação mensal da Paraíba, com foco em:
+Democratizar o acesso aos dados pluviométricos da Paraíba por meio de:  
 
-- Visualização geoespacial no Google Earth Engine
-- Análise em Python usando bibliotecas como `geemap`, `geopandas` e `matplotlib`
-- Compartilhamento de scripts e notebooks para reprodutibilidade
+- **Visualização geoespacial** no Google Earth Engine  
+- **Análises em Python**, com suporte a `geemap`, `geopandas` e `matplotlib`  
+- **Reprodutibilidade**, através do compartilhamento de scripts, notebooks e metadados  
+- **Integração interdisciplinar**, possibilitando aplicações em climatologia, hidrologia, agricultura e gestão de recursos hídricos  
+
+---
+
+## 🛰️ O que é o PB-MPGRID?
+
+O **PB-MPGRID** (*Paraíba Monthly Precipitation Gridded Data*) é um **dataset interpolado de precipitação mensal** baseado em **242 estações pluviométricas da AESA-PB**.  
+
+- **Cobertura temporal:** janeiro/1994 – dezembro/2024  
+- **Resolução espacial:** 500 m (~0,005° WGS84)  
+- **Interpolação:** IDW (Inverse Distance Weighting, p=2)  
+- **Formato de saída:** GeoTIFF (raster)  
+- **Disponibilização:** Google Earth Engine (coleção pública)  
 
 ---
 
 ## 🔜 Em breve neste repositório
 
-- Scripts JavaScript para uso no GEE
-- Dados auxiliares e metadados
-- Documentação completa
+- Scripts JavaScript para uso no **GEE**  
+- Notebooks Python/Colab para análises estatísticas e gráficos  
+- Dados auxiliares (CSV, shapefiles e metadados)  
+- Documentação detalhada com exemplos de uso  
 
 ---
 
 ## 🗂 Estrutura planejada
 
 ```text
-prec_mensal_pb/
+PREC_MENSAL_PB/
 ├── scripts/      # Scripts JavaScript para GEE
 ├── notebooks/    # Notebooks Python/Colab
 ├── data/         # Dados auxiliares (CSV, shapefiles etc.)
 └── docs/         # Documentação e tutoriais
+```
+
+---
+
+## 📖 Referência metodológica
+
+Este projeto se baseia em metodologias consagradas de interpolação espacial para dados meteorológicos, em especial no trabalho de:  
+
+- Xavier, A. C., et al. (2022). *New improved Brazilian daily weather gridded data (1961–2020).* International Journal of Climatology.  
