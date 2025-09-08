@@ -4,6 +4,9 @@ Repositório destinado à organização, análise e disponibilização do **PB-M
 
 Os dados são processados por interpolação espacial (**IDW**) em resolução de **500 m**, cobrindo o período de **1994 a 2024**, e disponibilizados para uso colaborativo no **Google Earth Engine (GEE)**, além de suporte a análises em **Python (via geemap, geopandas, matplotlib)**.  
 
+> 🔗 **Acesse a coleção no Earth Engine:**  
+> [https://code.earthengine.google.com/?asset=projects/edivansilva/assets/PB-MPGRID](https://code.earthengine.google.com/?asset=projects/edivansilva/assets/PB-MPGRID)
+
 Este projeto está em desenvolvimento 🚧  
 Novos conteúdos serão adicionados em breve.  
 
@@ -29,6 +32,8 @@ O **PB-MPGRID** (*Paraíba Monthly Precipitation Gridded Data*) é um **dataset 
 - **Interpolação:** IDW (Inverse Distance Weighting, p=2)  
 - **Formato de saída:** GeoTIFF (raster)  
 - **Disponibilização:** Google Earth Engine (coleção pública)  
+- **Link direto para a coleção:**  
+  [https://code.earthengine.google.com/?asset=projects/edivansilva/assets/PB-MPGRID](https://code.earthengine.google.com/?asset=projects/edivansilva/assets/PB-MPGRID)
 
 ---
 
@@ -49,12 +54,3 @@ PREC_MENSAL_PB/
 ├── notebooks/    # Notebooks Python/Colab
 ├── data/         # Dados auxiliares (CSV, shapefiles etc.)
 └── docs/         # Documentação e tutoriais
-```
-
----
-
-## 📖 Referência metodológica
-
-Este projeto se baseia em metodologias consagradas de interpolação espacial para dados meteorológicos, em especial no trabalho de:  
-
-- Xavier, A. C., et al. (2022). *New improved Brazilian daily weather gridded data (1961–2020).* International Journal of Climatology.  
