@@ -28,8 +28,8 @@ Democratizar o acesso aos dados pluviométricos da Paraíba por meio de:
 O **PB-MPGRID** (*Paraíba Monthly Precipitation Gridded Data*) é um **dataset interpolado de precipitação mensal** baseado em **242 estações pluviométricas da AESA-PB**.  
 
 - **Cobertura temporal:** janeiro/1994 – dezembro/2024  
-- **Resolução espacial:** 500 m (~0,005° WGS84)  
-- **Interpolação:** IDW (Inverse Distance Weighting, p=2)  
+- **Resolução espacial:** 500 m (~0,0045° WGS84)  
+- **Interpolação:** IDW (Inverse Distance Weighting, p=5)  
 - **Formato de saída:** GeoTIFF (raster)  
 - **Disponibilização:** Google Earth Engine (coleção pública)  
 - **Link direto para a coleção:**  
