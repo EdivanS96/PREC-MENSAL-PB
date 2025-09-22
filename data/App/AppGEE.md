@@ -27,6 +27,7 @@ Além da visualização, o App permite exportar os dados diretamente em formato 
 
 Se utilizar este aplicativo ou os dados nele disponibilizados em trabalhos acadêmicos ou técnicos, cite como:
 
+
 DOS SANTOS, E. S.; SILVA, B. B.; BRAGA, C. C.  **PB-MPGRID: Dados de Precipitação Mensal em Grade para o Estado da Paraíba** – Aplicativo no Google Earth Engine.  Disponível em: [https://edivansilva.projects.earthengine.app/view/pb-mpgrid](https://edivansilva.projects.earthengine.app/view/pb-mpgrid).
 
 ---
